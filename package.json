@@ -4,8 +4,9 @@
   "scripts": {
     "clean": "rm -rf dist",
     "check": "node check.js",
+    "gulp": "gulp",
     "prebuild": "npm run check",
-    "build": "npm run clean && gulp"
+    "build": "npm run clean && npm run gulp"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
