@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  tristana:
+    restart: always
+    image: tristana
+    build: ./nginx
+    container_name: tristana
+    environment:
+      - VIRTUAL_HOST=<%= domains %>
+      - VIRTUAL_PORT=4000
+      - VIRTUAL_NETWORK=nginx-proxy
+      - LETSENCRYPT_HOST=<%= domains %>
+      - LETSENCRYPT_EMAIL=duxiaodong@darlin.me
+    networks:
+      - proxy-tier
+
+networks:
+  proxy-tier:
+    external:
+      name: nginx-proxy

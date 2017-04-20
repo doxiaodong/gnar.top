@@ -1,0 +1,14 @@
+{
+  "name": "tristana",
+  "version": "1.0.0-beta.0",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "check": "node check.js",
+    "prebuild": "npm run check",
+    "build": "npm run clean && gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-template": "^4.0.0"
+  }
+}
