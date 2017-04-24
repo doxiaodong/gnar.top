@@ -11,6 +11,8 @@ const black = [
   '',
   'cdn',
   'music',
+  'static',
+  'fonts',
   'certs' // common_domain
 ]
 
