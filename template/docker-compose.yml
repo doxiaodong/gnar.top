@@ -1,11 +1,11 @@
 version: "3"
 
 services:
-  tristana:
+  teemo:
     restart: always
-    image: tristana
+    image: teemo
     build: ./nginx
-    container_name: tristana
+    container_name: teemo
     environment:
       - VIRTUAL_HOST=<%= domains %>
       - VIRTUAL_PORT=4000

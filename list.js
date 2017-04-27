@@ -8,12 +8,7 @@ const list = [
 ]
 
 const black = [
-  '',
-  'cdn',
-  'music',
-  'static',
-  'fonts',
-  'certs' // common_domain
+  '' // common_domain
 ]
 
 module.exports = {
