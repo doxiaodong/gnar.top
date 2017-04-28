@@ -1,3 +1,3 @@
 module.exports = {
-  root: 'teemo.top'
+  root: 'gnar.top'
 }

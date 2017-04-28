@@ -8,8 +8,6 @@ const domains = list.map((item) => {
   return item[0] + `.${root}`
 }).sort()
 
-
-
 gulp.task('default', () =>
   gulp.src('template/**/*')
     .pipe(template({

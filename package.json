@@ -1,5 +1,5 @@
 {
-  "name": "teemo",
+  "name": "gnar",
   "version": "1.0.0-beta.0",
   "scripts": {
     "clean": "rm -rf dist",

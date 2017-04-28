@@ -1,4 +1,4 @@
-# Host website by *.teemo.top
+# Host website by *.gnar.top
 
 ## Usage
 
@@ -12,7 +12,7 @@ const list = [
 ]
 ```
 
-* The result address is ngx.teemo.top
+* The result address is ngx.gnar.top
 
 * You can not use the prefix in black list
 
