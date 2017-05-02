@@ -1,4 +1,5 @@
 const list = [
+  ['google', 'https://www.google.com'],
   ['lin', 'https://ljian3377.github.io'],
   ['ng2-clip', 'https://doxiaodong.github.io/ng2-clip'],
   ['ng2-simplemde', 'https://doxiaodong.github.io/ng2-simplemde'],
